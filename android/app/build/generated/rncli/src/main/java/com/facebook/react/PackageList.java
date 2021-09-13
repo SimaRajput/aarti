@@ -23,6 +23,8 @@ import io.invertase.firebase.storage.ReactNativeFirebaseStoragePackage;
 import com.rnim.rn.audio.ReactNativeAudioPackage;
 // react-native-permissions
 import com.reactnativecommunity.rnpermissions.RNPermissionsPackage;
+// react-native-push-notification
+import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 // react-native-sound
 import com.zmxv.RNSound.RNSoundPackage;
 
@@ -76,6 +78,7 @@ public class PackageList {
       new ReactNativeFirebaseStoragePackage(),
       new ReactNativeAudioPackage(),
       new RNPermissionsPackage(),
+      new ReactNativePushNotificationPackage(),
       new RNSoundPackage()
     ));
   }
