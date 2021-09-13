@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">998350067097-rtqlm66gp9bboiqd4oq1mukc0b9lu3sr.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">998350067097</string>
+    <string name="google_api_key" translatable="false">AIzaSyCrQfjnhkZC1eB638VxU_ywRX96YB50aGs</string>
+    <string name="google_app_id" translatable="false">1:998350067097:android:78d8034547369aecd76f08</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCrQfjnhkZC1eB638VxU_ywRX96YB50aGs</string>
+    <string name="google_storage_bucket" translatable="false">bhagti-657e8.appspot.com</string>
+    <string name="project_id" translatable="false">bhagti-657e8</string>
+</resources>

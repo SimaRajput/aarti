@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "998350067097",
+    "project_id": "bhagti-657e8",
+    "storage_bucket": "bhagti-657e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998350067097:android:78d8034547369aecd76f08",
+        "android_client_info": {
+          "package_name": "com.rndemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998350067097-rtqlm66gp9bboiqd4oq1mukc0b9lu3sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrQfjnhkZC1eB638VxU_ywRX96YB50aGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998350067097-rtqlm66gp9bboiqd4oq1mukc0b9lu3sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
