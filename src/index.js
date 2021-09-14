@@ -16,10 +16,11 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import Home from './Home';
 import SplashScreen from "react-native-splash-screen";
 import messaging from '@react-native-firebase/messaging';
 
-class App extends React.Component {
+class src extends React.Component {
 
   constructor(props) {
     super(props);
@@ -52,20 +53,9 @@ class App extends React.Component {
     }
   }
 
-
-
   render() {
     return (
-      <SafeAreaView>
-        <StatusBar />
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-        >
-          <View>
-            <Text> HIIIiiiiiii</Text>
-          </View>
-        </ScrollView>
-      </SafeAreaView>
+      <Home />
     )
   }
 }
@@ -90,4 +80,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default src;
