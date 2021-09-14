@@ -17,8 +17,6 @@
     <uses-permission android:name="android.perm ission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -60,7 +58,7 @@
 
         <meta-data
             android:name="com.dieam.reactnativepushnotification.notification_foreground"
-            android:value="false" />
+            android:value="true" />
         <meta-data
             android:name="com.dieam.reactnativepushnotification.notification_color"
             android:resource="@color/white" />
