@@ -21,10 +21,12 @@ import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
 import io.invertase.firebase.storage.ReactNativeFirebaseStoragePackage;
 // react-native-audio
 import com.rnim.rn.audio.ReactNativeAudioPackage;
-// react-native-permissions
-import com.reactnativecommunity.rnpermissions.RNPermissionsPackage;
+// react-native-push-notification
+import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 // react-native-sound
 import com.zmxv.RNSound.RNSoundPackage;
+// react-native-splash-screen
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
 
 public class PackageList {
   private Application application;
@@ -75,8 +77,9 @@ public class PackageList {
       new ReactNativeFirebaseMessagingPackage(),
       new ReactNativeFirebaseStoragePackage(),
       new ReactNativeAudioPackage(),
-      new RNPermissionsPackage(),
-      new RNSoundPackage()
+      new ReactNativePushNotificationPackage(),
+      new RNSoundPackage(),
+      new SplashScreenReactPackage()
     ));
   }
 }

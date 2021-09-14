@@ -6,41 +6,35 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, { Component } from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
+  TextInput,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
+  TouchableOpacity,
+  Alert,
 } from 'react-native';
+import NotifService from './src/utils/notiService';
 import Home from './Home';
 import SplashScreen from "react-native-splash-screen";
 import messaging from '@react-native-firebase/messaging';
 
-class src extends React.Component {
-
+export default class App extends Component {
   constructor(props) {
     super(props);
-    console.log(props, 'prop')
+    this.state = {};
+
+    this.notif = new NotifService(
+      this.onRegister.bind(this),
+      this.onNotif.bind(this),
+    );
   }
 
-
-  // async componentDidMount() {
-  //   const enabled = await messaging().hasPermission();
-  //   const { navigation: { dispatch } } = this.props;
-
-  //   if (enabled) {
-  //     const token = await messaging().getToken();
-  //     console.log('token',token)
-  //   }
-  // }
-
-  componentDidMount() {
+  componendDidMount() {
     SplashScreen.hide();
     this.requestUserPermission();
+    this.notif.scheduleNotif();
   }
 
   async requestUserPermission() {
@@ -53,31 +47,127 @@ class src extends React.Component {
     }
   }
 
+  onRegister(token) {
+    this.setState({ registerToken: token.token, fcmRegistered: true });
+  }
+
+  onNotif(notif) {
+    Alert.alert(notif.title, notif.message);
+  }
+
+  handlePerm(perms) {
+    Alert.alert('Permissions', JSON.stringify(perms));
+  }
+
   render() {
     return (
-      <Home />
-    )
+      <View style={styles.container}>
+        <Home />
+        {/* <Text style={styles.title}>
+           Example app react-native-push-notification
+         </Text>
+         <View style={styles.spacer}></View>
+         <TextInput
+           style={styles.textField}
+           value={this.state.registerToken}
+           placeholder="Register token"
+         />
+         <View style={styles.spacer}></View>
+ 
+         <TouchableOpacity
+           style={styles.button}
+           onPress={() => {
+             this.notif.localNotif();
+           }}>
+           <Text>Local Notification (now)</Text>
+         </TouchableOpacity>
+         <TouchableOpacity
+           style={styles.button}
+           onPress={() => {
+             this.notif.localNotif('sample.mp3');
+           }}>
+           <Text>Local Notification with sound (now)</Text>
+         </TouchableOpacity>
+         <TouchableOpacity
+           style={styles.button}
+           onPress={() => {
+             this.notif.scheduleNotif();
+           }}>
+           <Text>Schedule Notification in 30s</Text>
+         </TouchableOpacity>
+         <TouchableOpacity
+           style={styles.button}
+           onPress={() => {
+             this.notif.scheduleNotif('sample.mp3');
+           }}>
+           <Text>Schedule Notification with sound in 30s</Text>
+         </TouchableOpacity>
+         <TouchableOpacity
+           style={styles.button}
+           onPress={() => {
+             this.notif.checkPermission(this.handlePerm.bind(this));
+           }}>
+           <Text>Check Permission</Text>
+         </TouchableOpacity>
+         <TouchableOpacity
+           style={styles.button}
+           onPress={() => {
+             this.notif.requestPermissions();
+           }}>
+           <Text>Request Permissions</Text>
+         </TouchableOpacity>
+         <TouchableOpacity
+           style={styles.button}
+           onPress={() => {
+             this.notif.cancelAllNotification();
+           }}>
+           <Text>Cancel All Notification</Text>
+         </TouchableOpacity>
+         <View style={styles.spacer}></View>
+ 
+         {this.state.fcmRegistered && <Text>FCM Configured !</Text>}
+ 
+         <View style={styles.spacer}></View> */}
+      </View>
+    );
   }
+
 }
 
-
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
   },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
   },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
+  button: {
+    borderWidth: 1,
+    borderColor: '#000000',
+    margin: 5,
+    padding: 5,
+    width: '70%',
+    backgroundColor: '#DDDDDD',
+    borderRadius: 5,
   },
-  highlight: {
-    fontWeight: '700',
+  textField: {
+    borderWidth: 1,
+    borderColor: '#AAAAAA',
+    margin: 5,
+    padding: 5,
+    width: '70%',
+  },
+  spacer: {
+    height: 10,
+  },
+  title: {
+    fontWeight: 'bold',
+    fontSize: 20,
+    textAlign: 'center',
   },
 });
-
-export default src;

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/teamlance21/Documents/react-native/RNDemo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/teamlance21/.gradle/caches/transforms-3/2ddb685ed011f58b64a72294741986c7/transformed/appcompat-1.1.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/teamlance21/.gradle/caches/transforms-3/bdd999bb93d5db75100f91201a014dc4/transformed/appcompat-1.1.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/teamlance21/.gradle/caches/transforms-3/4d0675d71e8583fea6be727fb4850676/transformed/jetified-play-services-auth-19.2.0/res/values-watch-v20/values.xml",
+                    "source": "/home/teamlance21/.gradle/caches/transforms-3/2c3922057f10c76694c4247d75cedfbe/transformed/jetified-play-services-auth-19.2.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
