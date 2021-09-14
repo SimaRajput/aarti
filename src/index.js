@@ -15,7 +15,7 @@ import {
   TouchableOpacity,
   Alert,
 } from 'react-native';
-import NotifService from './src/utils/notiService';
+import NotifService from './utils/notiService';
 import Home from './Home';
 import SplashScreen from "react-native-splash-screen";
 import messaging from '@react-native-firebase/messaging';
