@@ -16,6 +16,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import SplashScreen from "react-native-splash-screen";
 import messaging from '@react-native-firebase/messaging';
 
 class App extends React.Component {
@@ -37,6 +38,7 @@ class App extends React.Component {
   // }
 
   componentDidMount() {
+    SplashScreen.hide();
     this.requestUserPermission();
   }
 
