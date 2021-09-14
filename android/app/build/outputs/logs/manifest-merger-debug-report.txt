@@ -13,8 +13,8 @@ MERGED from [:react-native-firebase_messaging] /home/teamlance21/Documents/react
 MERGED from [:react-native-firebase_storage] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-firebase_app] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-27:12
 MERGED from [:react-native-audio] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-permissions] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-push-notification] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-splash-screen] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.react:react-native:0.65.1] /home/teamlance21/.gradle/caches/transforms-3/3c3d843e43e4d934c5a9440b5701932c/transformed/jetified-react-native-0.65.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/1e275e81ffa9eca701bf801c51a3f420/transformed/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/teamlance21/.gradle/caches/transforms-3/27f36dac8e894735dac52c3df6ab6869/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:17:1-58:12
@@ -219,6 +219,8 @@ MERGED from [:react-native-firebase_messaging] /home/teamlance21/Documents/react
 MERGED from [:react-native-firebase_messaging] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-41:19
 MERGED from [:react-native-firebase_app] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-25:19
 MERGED from [:react-native-firebase_app] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-25:19
+MERGED from [:react-native-splash-screen] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
+MERGED from [:react-native-splash-screen] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
 MERGED from [com.facebook.react:react-native:0.65.1] /home/teamlance21/.gradle/caches/transforms-3/3c3d843e43e4d934c5a9440b5701932c/transformed/jetified-react-native-0.65.1/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.65.1] /home/teamlance21/.gradle/caches/transforms-3/3c3d843e43e4d934c5a9440b5701932c/transformed/jetified-react-native-0.65.1/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/1e275e81ffa9eca701bf801c51a3f420/transformed/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:7:5-20
@@ -367,10 +369,10 @@ MERGED from [:react-native-firebase_app] /home/teamlance21/Documents/react-nativ
 MERGED from [:react-native-firebase_app] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-audio] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-audio] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-permissions] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-permissions] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-push-notification] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-push-notification] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.65.1] /home/teamlance21/.gradle/caches/transforms-3/3c3d843e43e4d934c5a9440b5701932c/transformed/jetified-react-native-0.65.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.65.1] /home/teamlance21/.gradle/caches/transforms-3/3c3d843e43e4d934c5a9440b5701932c/transformed/jetified-react-native-0.65.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/1e275e81ffa9eca701bf801c51a3f420/transformed/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:5:5-44
