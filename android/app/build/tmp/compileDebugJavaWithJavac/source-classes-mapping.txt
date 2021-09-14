@@ -1,3 +1,5 @@
+com/rndemo/SplashActivity.java
+ com.rndemo.SplashActivity
 com/rndemo/BuildConfig.java
  com.rndemo.BuildConfig
 com/rndemo/MainApplication.java
