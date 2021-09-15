@@ -1,7 +1,8 @@
 /* eslint-disable global-require */
 
-// import Logo from '../assets/images/logo.svg';
+module.exports = {
+  soundImage: require('../assets/images/soundImage.jpeg'),
+  soundImage2: require('../assets/images/images.jpeg'),
+  homebg: require('../assets/images/homebg.jpeg'),
 
-// module.exports = {
-//   Logo
-// };
+};
