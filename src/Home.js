@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, SafeAreaView, TouchableOpacity, Text } from 'react-native';
 import Constants from './constants';
+import { Header } from './components'
 
 const styles = StyleSheet.create({
   container: {
@@ -23,6 +24,7 @@ class Home extends Component{
   render(){
     return (
     <SafeAreaView style={{ flex: 1 }}>
+      <Header leftIcon={Constants.Images.More} showLeftIcon={true} title='Home'/>
     <View style={styles.container}>
       <TouchableOpacity style={styles.buttonView}>
         <Text>Aarti</Text>

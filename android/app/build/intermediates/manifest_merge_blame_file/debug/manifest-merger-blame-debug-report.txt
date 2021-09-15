@@ -108,7 +108,7 @@
 48        android:allowBackup="false"
 48-->/home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:41:7-34
 49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-49-->[androidx.core:core:1.2.0] /home/teamlance21/.gradle/caches/transforms-3/10b0134f758baf60efc2f7c112d96282/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+49-->[androidx.core:core:1.6.0] /home/teamlance21/.gradle/caches/transforms-3/100f45070db1dcd52ddd9b49611099f9/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 50        android:debuggable="true"
 51        android:icon="@mipmap/ic_launcher"
 51-->/home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:39:7-41

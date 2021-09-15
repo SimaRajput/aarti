@@ -5,3 +5,8 @@
 // module.exports = {
 //   Logo
 // };
+
+module.exports = {
+
+    More: require('../assets/images/more.png')
+};
