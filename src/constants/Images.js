@@ -8,5 +8,7 @@
 
 module.exports = {
 
-    More: require('../assets/images/more.png')
+    More: require('../assets/images/more.png'),
+    Logo: require('../assets/images/logo.png'),
+    Back: require('../assets/images/back.png'),
 };

@@ -118,8 +118,8 @@
 53-->/home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:42:7-31
 54        android:roundIcon="@mipmap/ic_launcher_round"
 54-->/home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:40:7-52
-55        android:theme="@style/SplashTheme"
-55-->/home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:38:7-41
+55        android:theme="@style/AppTheme"
+55-->/home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:38:6-37
 56        android:usesCleartextTraffic="true" >
 56-->/home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:8:9-44
 57        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
