@@ -20,7 +20,6 @@ import NotifService from './utils/notiService';
 import Navigator from './config/navigator';
 import SplashScreen from "react-native-splash-screen";
 import messaging from '@react-native-firebase/messaging';
-import Home from './Home';
 
 export default class App extends Component {
   constructor(props) {

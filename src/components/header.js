@@ -24,8 +24,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   iconStyle: {
-    height: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 10,
-    width: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 10,
+    height: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 8,
+    width: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 8,
     resizeMode: 'contain'
   },
   headerLogo: {

@@ -307,7 +307,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/teaml
 	tools:targetApi
 		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:theme
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:38:7-41
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:38:6-37
 	android:name
 		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:36:7-38
 	android:usesCleartextTraffic

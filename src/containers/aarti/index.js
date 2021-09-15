@@ -5,7 +5,9 @@ import Constants from '../../constants';
 import StaticData from '../../utils/staticData';
 
 export default class Aarti extends React.Component {
-
+  constructor(props) {
+    super(props);
+  }
   renderItem({ item }) {
     return <TouchableOpacity style={styles.listItemView}>
       <Text>{item.title}</Text>
@@ -13,9 +15,10 @@ export default class Aarti extends React.Component {
   }
 
   render() {
+    const { navigation: { navigate } } = this.props;
     return (
       <SafeAreaView style={styles.container}>
-        <Header leftIcon={Constants.Images.More} showLeftIcon={true} title='Aartis' />
+        <Header onPressLeft={() => navigate('More')} leftIcon={Constants.Images.More} showLeftIcon={true} title='Aartis' />
         <FlatList
           data={StaticData.playlist}
           renderItem={this.renderItem}
