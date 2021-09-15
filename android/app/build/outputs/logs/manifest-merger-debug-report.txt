@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-55:12
-INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-55:12
-INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-55:12
-INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-55:12
-MERGED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-55:12
+ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-69:12
+INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-69:12
+INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-69:12
+INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-69:12
+MERGED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-69:12
 MERGED from [com.facebook.flipper:flipper:0.93.0] /home/teamlance21/.gradle/caches/transforms-3/064c3a7a7c97b2965ae18d4a27586914/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.93.0] /home/teamlance21/.gradle/caches/transforms-3/fcd86900474213d9b72eaf3574d2e663/transformed/jetified-flipper-network-plugin-0.93.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.93.0] /home/teamlance21/.gradle/caches/transforms-3/5bea35c0a79d75a6e621b64c4d5f4a89/transformed/jetified-flipper-fresco-plugin-0.93.0/AndroidManifest.xml:8:1-15:12
@@ -14,6 +14,8 @@ MERGED from [:react-native-firebase_storage] /home/teamlance21/Documents/react-n
 MERGED from [:react-native-firebase_app] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-27:12
 MERGED from [:react-native-audio] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-push-notification] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-splash-screen] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.react:react-native:0.65.1] /home/teamlance21/.gradle/caches/transforms-3/3c3d843e43e4d934c5a9440b5701932c/transformed/jetified-react-native-0.65.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/1e275e81ffa9eca701bf801c51a3f420/transformed/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:2:1-9:12
@@ -46,6 +48,7 @@ MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /home/teamlance21/.gr
 MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/3be5968fe8bed058041997d3596bedb2/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/c542d5afcf8122bd6274df3a5e6ab656/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/e162b8db933b6f764809dc0608280677/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/4e704f1afb6d6607e15dbef75c263cdf/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/bdd999bb93d5db75100f91201a014dc4/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/ddf9064824be8ac5cde88e80df3fec2f/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/teamlance21/.gradle/caches/transforms-3/a8cfb69973abaeb0ea54108ac00a5730/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:15:1-41:12
@@ -54,9 +57,6 @@ MERGED from [com.facebook.fresco:ui-common:2.5.0] /home/teamlance21/.gradle/cach
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/cc711aed3d275c7df0ede0c28b3bb160/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/35534c0945191eb2ee4eeb8486b55c1c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/3d7077ddc018f859d462e93e59c619f9/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/teamlance21/.gradle/caches/transforms-3/ffdcf809b1da5fcd44d5615962aa4469/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.0.0] /home/teamlance21/.gradle/caches/transforms-3/bba5c548214ccdfb6f990b7d5541e6b1/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/a43ad0e6326cda54e0ba43228f54d4f9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/teamlance21/.gradle/caches/transforms-3/2c3922057f10c76694c4247d75cedfbe/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/84dce6fc88f75cfecfda692af0c2e7df/transformed/jetified-play-services-measurement-sdk-19.0.0/AndroidManifest.xml:17:1-25:12
@@ -75,28 +75,39 @@ MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] /home
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/teamlance21/.gradle/caches/transforms-3/ee071a5d6f5815272b52abeff9abdb20/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/teamlance21/.gradle/caches/transforms-3/b15f00c1364c04cf9f0f9c3b05253e0a/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/teamlance21/.gradle/caches/transforms-3/a2db7b21d6a5136bffc5ab895b782ce1/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/417fa775bd9e2bbc735a51a6a885ac43/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/033a744b89c608158f3c60901bdd5c1e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /home/teamlance21/.gradle/caches/transforms-3/ea0a7b36da3a7aa150d8af290c907107/transformed/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/2d31269cb6d8efad788992fbd0b4977d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] /home/teamlance21/.gradle/caches/transforms-3/fdd54eadb04d6fe6c66b79d14940add2/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/teamlance21/.gradle/caches/transforms-3/ffdcf809b1da5fcd44d5615962aa4469/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/teamlance21/.gradle/caches/transforms-3/bba5c548214ccdfb6f990b7d5541e6b1/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/a43ad0e6326cda54e0ba43228f54d4f9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/f25473984b0820533b0840bb29044c98/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/b2f67bc6ee8fdc8a518df85bdec86b45/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/911a78f1afba3900e68b2e710f660402/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/f9fe0faa6d4227125e3080effa753b38/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/teamlance21/.gradle/caches/transforms-3/a69a5579b6664233908b41424b464d55/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/a859a512b47e896d30999edcfbef6342/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/405746f45cf656f5dec313a41d988e9a/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/9a6d5f7ec74d1a71e3b75392fd979f68/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/7470e01db516c1fbb11d9db3c3854c8a/transformed/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/9d19005749eca88c82b4881ddf6d10b2/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/1053c937471d398ee2e777a7b5b8324a/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.2.0] /home/teamlance21/.gradle/caches/transforms-3/10b0134f758baf60efc2f7c112d96282/transformed/core-1.2.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/e4e534ee5c12cd89b26dd3f24ee266f2/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.core:core:1.6.0] /home/teamlance21/.gradle/caches/transforms-3/100f45070db1dcd52ddd9b49611099f9/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/teamlance21/.gradle/caches/transforms-3/da4cfc2dd0fd1b2ade2a4a0fa328b25d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/9c1ce2938f36d84956c9cab55e1b657a/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/6bf7c817694cee635da02952cce5c28c/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/174af26b3320c42c61cfdfaa8c27ea21/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/32a5b6126cc51e1f1b32732f437c0094/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/7840e4dee4113486dcfe28f91d80aac2/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/35385ab6b805b05c01670d69ca438965/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/e1a047fe8302d1a33a6ac7c48a6005d9/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/49fabac3f068a71c1c51188e71a9d0a1/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/8bbee476648d8f3a501ed2af2aa77f2f/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/3cd627bba8f3d093208dc561535d7703/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/080f65860a470a94d3e1832dd1e9d1f7/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/7b1e88a088699dcc21c9f08710fced73/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/477b9fbce984edfffb69b74c690614db/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/7840e4dee4113486dcfe28f91d80aac2/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/35385ab6b805b05c01670d69ca438965/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/b49a5c7ec3ccff93143b6b09b5ecf457/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/b8e35d10e8d8d2054cc78359e24a7753/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/teamlance21/.gradle/caches/transforms-3/68bbc308872bbb3232a5c78a9cbe8d50/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/fbc09f8f49d4986892eaccd4bf71f35d/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/e692877f47991c60e6ced784e802e543/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:2:1-13:12
@@ -107,13 +118,13 @@ INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/deb
 		INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-55:12
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-69:12
 		INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-55:12
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:1-69:12
 		INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -213,8 +224,8 @@ application
 ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:13:5-33:23
 MERGED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:13:5-33:23
 MERGED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:13:5-33:23
-MERGED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:35:5-54:19
-MERGED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:35:5-54:19
+MERGED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:35:5-68:19
+MERGED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:35:5-68:19
 MERGED from [:react-native-firebase_messaging] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-41:19
 MERGED from [:react-native-firebase_messaging] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-41:19
 MERGED from [:react-native-firebase_app] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-25:19
@@ -247,6 +258,8 @@ MERGED from [com.google.firebase:firebase-common:20.0.0] /home/teamlance21/.grad
 MERGED from [com.google.firebase:firebase-common:20.0.0] /home/teamlance21/.gradle/caches/transforms-3/42432019d2090d09cdd94de120b09af5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/teamlance21/.gradle/caches/transforms-3/8a63de81ae3ea576a47c707d752afa8b/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/teamlance21/.gradle/caches/transforms-3/8a63de81ae3ea576a47c707d752afa8b/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/4e704f1afb6d6607e15dbef75c263cdf/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/4e704f1afb6d6607e15dbef75c263cdf/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/teamlance21/.gradle/caches/transforms-3/a8cfb69973abaeb0ea54108ac00a5730/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/teamlance21/.gradle/caches/transforms-3/a8cfb69973abaeb0ea54108ac00a5730/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/teamlance21/.gradle/caches/transforms-3/2c3922057f10c76694c4247d75cedfbe/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
@@ -273,28 +286,28 @@ MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/teamlance2
 MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/teamlance21/.gradle/caches/transforms-3/b15f00c1364c04cf9f0f9c3b05253e0a/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/teamlance21/.gradle/caches/transforms-3/a2db7b21d6a5136bffc5ab895b782ce1/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/teamlance21/.gradle/caches/transforms-3/a2db7b21d6a5136bffc5ab895b782ce1/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.2.0] /home/teamlance21/.gradle/caches/transforms-3/10b0134f758baf60efc2f7c112d96282/transformed/core-1.2.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.2.0] /home/teamlance21/.gradle/caches/transforms-3/10b0134f758baf60efc2f7c112d96282/transformed/core-1.2.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/e4e534ee5c12cd89b26dd3f24ee266f2/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/e4e534ee5c12cd89b26dd3f24ee266f2/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.core:core:1.6.0] /home/teamlance21/.gradle/caches/transforms-3/100f45070db1dcd52ddd9b49611099f9/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /home/teamlance21/.gradle/caches/transforms-3/100f45070db1dcd52ddd9b49611099f9/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/teamlance21/.gradle/caches/transforms-3/da4cfc2dd0fd1b2ade2a4a0fa328b25d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/teamlance21/.gradle/caches/transforms-3/da4cfc2dd0fd1b2ade2a4a0fa328b25d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.2.0] /home/teamlance21/.gradle/caches/transforms-3/10b0134f758baf60efc2f7c112d96282/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] /home/teamlance21/.gradle/caches/transforms-3/100f45070db1dcd52ddd9b49611099f9/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:37:7-39
 	android:roundIcon
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:39:7-52
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:40:7-52
 	tools:ignore
 		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:10:9-48
 	android:largeHeap
 		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:42:7-31
 	android:icon
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:38:7-41
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:39:7-41
 	android:allowBackup
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:40:7-34
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:41:7-34
 	tools:targetApi
 		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:theme
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:41:7-38
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:38:7-41
 	android:name
 		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:36:7-38
 	android:usesCleartextTraffic
@@ -371,6 +384,10 @@ MERGED from [:react-native-audio] /home/teamlance21/Documents/react-native/aarti
 MERGED from [:react-native-audio] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-push-notification] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-push-notification] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-splash-screen] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-splash-screen] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.65.1] /home/teamlance21/.gradle/caches/transforms-3/3c3d843e43e4d934c5a9440b5701932c/transformed/jetified-react-native-0.65.1/AndroidManifest.xml:5:5-7:41
@@ -435,6 +452,8 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /home/teamlance21/
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/c542d5afcf8122bd6274df3a5e6ab656/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/e162b8db933b6f764809dc0608280677/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/e162b8db933b6f764809dc0608280677/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/4e704f1afb6d6607e15dbef75c263cdf/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/4e704f1afb6d6607e15dbef75c263cdf/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/bdd999bb93d5db75100f91201a014dc4/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/bdd999bb93d5db75100f91201a014dc4/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/ddf9064824be8ac5cde88e80df3fec2f/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
@@ -451,12 +470,6 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/teamla
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/35534c0945191eb2ee4eeb8486b55c1c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/3d7077ddc018f859d462e93e59c619f9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/3d7077ddc018f859d462e93e59c619f9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/teamlance21/.gradle/caches/transforms-3/ffdcf809b1da5fcd44d5615962aa4469/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/teamlance21/.gradle/caches/transforms-3/ffdcf809b1da5fcd44d5615962aa4469/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] /home/teamlance21/.gradle/caches/transforms-3/bba5c548214ccdfb6f990b7d5541e6b1/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] /home/teamlance21/.gradle/caches/transforms-3/bba5c548214ccdfb6f990b7d5541e6b1/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/a43ad0e6326cda54e0ba43228f54d4f9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/a43ad0e6326cda54e0ba43228f54d4f9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/teamlance21/.gradle/caches/transforms-3/2c3922057f10c76694c4247d75cedfbe/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.2.0] /home/teamlance21/.gradle/caches/transforms-3/2c3922057f10c76694c4247d75cedfbe/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:20:5-44
@@ -493,8 +506,20 @@ MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/teamlance2
 MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/teamlance21/.gradle/caches/transforms-3/b15f00c1364c04cf9f0f9c3b05253e0a/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/teamlance21/.gradle/caches/transforms-3/a2db7b21d6a5136bffc5ab895b782ce1/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/teamlance21/.gradle/caches/transforms-3/a2db7b21d6a5136bffc5ab895b782ce1/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/417fa775bd9e2bbc735a51a6a885ac43/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/417fa775bd9e2bbc735a51a6a885ac43/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/033a744b89c608158f3c60901bdd5c1e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/033a744b89c608158f3c60901bdd5c1e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/teamlance21/.gradle/caches/transforms-3/ea0a7b36da3a7aa150d8af290c907107/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/teamlance21/.gradle/caches/transforms-3/ea0a7b36da3a7aa150d8af290c907107/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/2d31269cb6d8efad788992fbd0b4977d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/2d31269cb6d8efad788992fbd0b4977d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/teamlance21/.gradle/caches/transforms-3/fdd54eadb04d6fe6c66b79d14940add2/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/teamlance21/.gradle/caches/transforms-3/fdd54eadb04d6fe6c66b79d14940add2/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/teamlance21/.gradle/caches/transforms-3/ffdcf809b1da5fcd44d5615962aa4469/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/teamlance21/.gradle/caches/transforms-3/ffdcf809b1da5fcd44d5615962aa4469/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/teamlance21/.gradle/caches/transforms-3/bba5c548214ccdfb6f990b7d5541e6b1/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/teamlance21/.gradle/caches/transforms-3/bba5c548214ccdfb6f990b7d5541e6b1/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/a43ad0e6326cda54e0ba43228f54d4f9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/a43ad0e6326cda54e0ba43228f54d4f9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/f25473984b0820533b0840bb29044c98/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/f25473984b0820533b0840bb29044c98/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/b2f67bc6ee8fdc8a518df85bdec86b45/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
@@ -503,40 +528,50 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/teamlance21/
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/911a78f1afba3900e68b2e710f660402/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/f9fe0faa6d4227125e3080effa753b38/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/f9fe0faa6d4227125e3080effa753b38/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/teamlance21/.gradle/caches/transforms-3/a69a5579b6664233908b41424b464d55/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/teamlance21/.gradle/caches/transforms-3/a69a5579b6664233908b41424b464d55/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/a859a512b47e896d30999edcfbef6342/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/a859a512b47e896d30999edcfbef6342/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/405746f45cf656f5dec313a41d988e9a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/405746f45cf656f5dec313a41d988e9a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/9a6d5f7ec74d1a71e3b75392fd979f68/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/9a6d5f7ec74d1a71e3b75392fd979f68/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/7470e01db516c1fbb11d9db3c3854c8a/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/7470e01db516c1fbb11d9db3c3854c8a/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/9d19005749eca88c82b4881ddf6d10b2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/9d19005749eca88c82b4881ddf6d10b2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/1053c937471d398ee2e777a7b5b8324a/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/1053c937471d398ee2e777a7b5b8324a/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.2.0] /home/teamlance21/.gradle/caches/transforms-3/10b0134f758baf60efc2f7c112d96282/transformed/core-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.2.0] /home/teamlance21/.gradle/caches/transforms-3/10b0134f758baf60efc2f7c112d96282/transformed/core-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/e4e534ee5c12cd89b26dd3f24ee266f2/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/e4e534ee5c12cd89b26dd3f24ee266f2/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /home/teamlance21/.gradle/caches/transforms-3/100f45070db1dcd52ddd9b49611099f9/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /home/teamlance21/.gradle/caches/transforms-3/100f45070db1dcd52ddd9b49611099f9/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/teamlance21/.gradle/caches/transforms-3/da4cfc2dd0fd1b2ade2a4a0fa328b25d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/teamlance21/.gradle/caches/transforms-3/da4cfc2dd0fd1b2ade2a4a0fa328b25d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/9c1ce2938f36d84956c9cab55e1b657a/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/9c1ce2938f36d84956c9cab55e1b657a/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/6bf7c817694cee635da02952cce5c28c/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/6bf7c817694cee635da02952cce5c28c/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/174af26b3320c42c61cfdfaa8c27ea21/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/174af26b3320c42c61cfdfaa8c27ea21/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/32a5b6126cc51e1f1b32732f437c0094/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/32a5b6126cc51e1f1b32732f437c0094/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/7840e4dee4113486dcfe28f91d80aac2/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/7840e4dee4113486dcfe28f91d80aac2/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/35385ab6b805b05c01670d69ca438965/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/35385ab6b805b05c01670d69ca438965/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/e1a047fe8302d1a33a6ac7c48a6005d9/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/teamlance21/.gradle/caches/transforms-3/e1a047fe8302d1a33a6ac7c48a6005d9/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/49fabac3f068a71c1c51188e71a9d0a1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/49fabac3f068a71c1c51188e71a9d0a1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/8bbee476648d8f3a501ed2af2aa77f2f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/8bbee476648d8f3a501ed2af2aa77f2f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/3cd627bba8f3d093208dc561535d7703/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/3cd627bba8f3d093208dc561535d7703/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/080f65860a470a94d3e1832dd1e9d1f7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/080f65860a470a94d3e1832dd1e9d1f7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/7b1e88a088699dcc21c9f08710fced73/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/7b1e88a088699dcc21c9f08710fced73/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/477b9fbce984edfffb69b74c690614db/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/teamlance21/.gradle/caches/transforms-3/477b9fbce984edfffb69b74c690614db/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/7840e4dee4113486dcfe28f91d80aac2/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/7840e4dee4113486dcfe28f91d80aac2/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/35385ab6b805b05c01670d69ca438965/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/35385ab6b805b05c01670d69ca438965/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/b49a5c7ec3ccff93143b6b09b5ecf457/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/b49a5c7ec3ccff93143b6b09b5ecf457/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/b8e35d10e8d8d2054cc78359e24a7753/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/teamlance21/.gradle/caches/transforms-3/b8e35d10e8d8d2054cc78359e24a7753/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/teamlance21/.gradle/caches/transforms-3/68bbc308872bbb3232a5c78a9cbe8d50/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/teamlance21/.gradle/caches/transforms-3/68bbc308872bbb3232a5c78a9cbe8d50/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/fbc09f8f49d4986892eaccd4bf71f35d/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/fbc09f8f49d4986892eaccd4bf71f35d/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/e692877f47991c60e6ced784e802e543/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/e692877f47991c60e6ced784e802e543/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -549,28 +584,40 @@ activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:11:9-86
 	android:name
 		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:11:19-83
-activity#com.rndemo.MainActivity
-ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:43:7-53:18
+activity#com.rndemo.SplashActivity
+ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:47:7-56:18
 	android:label
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:45:9-41
-	android:launchMode
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:47:9-40
-	android:windowSoftInputMode
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:48:9-51
-	android:configChanges
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:46:9-86
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:49:9-41
+	android:exported
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:51:5-28
+	android:theme
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:50:11-45
 	android:name
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:44:9-37
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:48:9-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:49:9-52:25
+ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:52:9-55:23
 action#android.intent.action.MAIN
-ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:50:13-65
+ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:53:9-61
 	android:name
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:50:21-62
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:53:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:51:13-73
+ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:54:9-69
 	android:name
-		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:51:23-70
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:54:19-66
+activity#com.rndemo.MainActivity
+ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:58:7-67:18
+	android:label
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:60:9-41
+	android:launchMode
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:62:9-40
+	android:windowSoftInputMode
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:63:9-51
+	android:exported
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:64:9-32
+	android:configChanges
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:61:9-86
+	android:name
+		ADDED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/AndroidManifest.xml:59:9-37
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.93.0] /home/teamlance21/.gradle/caches/transforms-3/064c3a7a7c97b2965ae18d4a27586914/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:5-76
 	android:name

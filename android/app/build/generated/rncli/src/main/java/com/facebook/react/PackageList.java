@@ -23,6 +23,10 @@ import io.invertase.firebase.storage.ReactNativeFirebaseStoragePackage;
 import com.rnim.rn.audio.ReactNativeAudioPackage;
 // react-native-push-notification
 import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
+// react-native-safe-area-context
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+// react-native-screens
+import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-sound
 import com.zmxv.RNSound.RNSoundPackage;
 // react-native-splash-screen
@@ -78,6 +82,8 @@ public class PackageList {
       new ReactNativeFirebaseStoragePackage(),
       new ReactNativeAudioPackage(),
       new ReactNativePushNotificationPackage(),
+      new SafeAreaContextPackage(),
+      new RNScreensPackage(),
       new RNSoundPackage(),
       new SplashScreenReactPackage()
     ));
