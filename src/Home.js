@@ -20,28 +20,35 @@ const styles = StyleSheet.create({
   }
 })
 
-class Home extends Component{
-  render(){
+class Home extends Component {
+  constructor(props) {
+    super(props);
+    console.log('props', props);
+  }
+  render() {
+    const { navigation: { navigate } } = this.props;
     return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <Header leftIcon={Constants.Images.More} showLeftIcon={true} title='Home'/>
-    <View style={styles.container}>
-      <TouchableOpacity style={styles.buttonView}>
-        <Text>Aarti</Text>
-      </TouchableOpacity>
-      <TouchableOpacity style={styles.buttonView}>
-        <Text>Videos</Text>
-      </TouchableOpacity>
-      <TouchableOpacity style={styles.buttonView}>
-        <Text>15 Min OM Meditation</Text>
-      </TouchableOpacity>
-    </View>
+      <SafeAreaView style={{ flex: 1 }}>
+        <Header leftIcon={Constants.Images.More} showLeftIcon={true} title='Home' />
+        <View style={styles.container}>
+          <TouchableOpacity
+            style={styles.buttonView}
+            onPress={() => navigate('Aarti')}>
+            <Text>Aarti</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.buttonView}>
+            <Text>Videos</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.buttonView}>
+            <Text>15 Min OM Meditation</Text>
+          </TouchableOpacity>
+        </View>
 
-  </SafeAreaView>
+      </SafeAreaView>
     )
   }
-} 
-  
+}
+
 
 
 export default Home;
