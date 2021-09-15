@@ -22,4 +22,28 @@ const playlist = [
   }
 ];
 
-exports.playlist = playlist;
+const moreData = [
+  {
+    id: 0,
+    key: 'PrivacyPolicy',
+    icon: require('../assets/images/privacy-policy.png'),
+    title: 'Privcy Policy'
+  },
+  {
+    id: 1,
+    key: 'AboutUs',
+    icon: require('../assets/images/aboutus.png'),
+    title: 'About Us'
+  },
+  {
+    id: 2,
+    key: 'Share',
+    icon: require('../assets/images/share.png'),
+    title: 'Share'
+  }
+
+]
+
+
+exports.playlist = playlist; 
+exports.moreData = moreData;

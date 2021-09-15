@@ -15,10 +15,10 @@ export default class Aarti extends React.Component {
   }
 
   render() {
-    const { navigation: { navigate } } = this.props;
+    const { navigation: { navigate, goBack } } = this.props;
     return (
       <SafeAreaView style={styles.container}>
-        <Header onPressLeft={() => navigate('More')} leftIcon={Constants.Images.More} showLeftIcon={true} title='Aartis' />
+        <Header onPressLeft={() => navigate('More')} leftIcon={Constants.Images.Back} showLeftIcon={true} title='Aartis' onPressLeft={()=>goBack()}  />
         <FlatList
           data={StaticData.playlist}
           renderItem={this.renderItem}

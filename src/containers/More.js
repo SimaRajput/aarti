@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, SafeAreaView, TouchableOpacity, Text, Image } from 'react-native';
 import Constants from '../constants';
-import { Header } from '../components'
+import { Header } from '../components';
+import StaticData from '../utils/staticData';
 
 const styles = StyleSheet.create({
   container: {
@@ -34,27 +35,7 @@ const styles = StyleSheet.create({
   }
 })
 
-const data = [
-  {
-    id: 0,
-    key: 'PrivacyPolicy',
-    icon: require('../src/assets/images/privacy-policy.png'),
-    title: 'Privcy Policy'
-  },
-  {
-    id: 1,
-    key: 'AboutUs',
-    icon: require('../src/assets/images/aboutus.png'),
-    title: 'About Us'
-  },
-  {
-    id: 2,
-    key: 'Share',
-    icon: require('../src/assets/images/share.png'),
-    title: 'Share'
-  }
 
-]
 
 
 class More extends Component {
@@ -65,16 +46,17 @@ class More extends Component {
 
 
   render() {
+    const { navigation: { goBack }} = this.props;
     return (
       <SafeAreaView style={{ flex: 1 }}>
-        <Header leftIcon={Constants.Images.Back} showLeftIcon={true} title='More' />
+        <Header leftIcon={Constants.Images.Back} showLeftIcon={true} title='More' onPressLeft={()=>goBack()} />
         <View style={styles.container}>
           <View style={styles.logoStyle}>
             <Image source={Constants.Images.Logo} style={styles.logo} resizeMode='contain'></Image>
           </View>
           <View style={{ marginTop: 30 }}>
-            {data.map(item => (
-              <TouchableOpacity style={styles.rowContainer} onPress={() => this.onPressItem(item)}>
+            {StaticData.moreData.map(item => (
+              <TouchableOpacity style={styles.rowContainer} onPress={() => this.onPressItem(item)} key={item.id}>
                 <Image source={item.icon} style={styles.iconStyle} resizeMode='contain'></Image>
                 <Text style={styles.textStyle}>{item.title}</Text>
               </TouchableOpacity>
