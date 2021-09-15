@@ -14,9 +14,10 @@ import {
   View,
   TouchableOpacity,
   Alert,
+  SafeAreaView
 } from 'react-native';
 import NotifService from './utils/notiService';
-import Home from './Home';
+import Navigator from './config/navigator';
 import SplashScreen from "react-native-splash-screen";
 import messaging from '@react-native-firebase/messaging';
 
@@ -61,74 +62,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Home />
-        {/* <Text style={styles.title}>
-           Example app react-native-push-notification
-         </Text>
-         <View style={styles.spacer}></View>
-         <TextInput
-           style={styles.textField}
-           value={this.state.registerToken}
-           placeholder="Register token"
-         />
-         <View style={styles.spacer}></View>
- 
-         <TouchableOpacity
-           style={styles.button}
-           onPress={() => {
-             this.notif.localNotif();
-           }}>
-           <Text>Local Notification (now)</Text>
-         </TouchableOpacity>
-         <TouchableOpacity
-           style={styles.button}
-           onPress={() => {
-             this.notif.localNotif('sample.mp3');
-           }}>
-           <Text>Local Notification with sound (now)</Text>
-         </TouchableOpacity>
-         <TouchableOpacity
-           style={styles.button}
-           onPress={() => {
-             this.notif.scheduleNotif();
-           }}>
-           <Text>Schedule Notification in 30s</Text>
-         </TouchableOpacity>
-         <TouchableOpacity
-           style={styles.button}
-           onPress={() => {
-             this.notif.scheduleNotif('sample.mp3');
-           }}>
-           <Text>Schedule Notification with sound in 30s</Text>
-         </TouchableOpacity>
-         <TouchableOpacity
-           style={styles.button}
-           onPress={() => {
-             this.notif.checkPermission(this.handlePerm.bind(this));
-           }}>
-           <Text>Check Permission</Text>
-         </TouchableOpacity>
-         <TouchableOpacity
-           style={styles.button}
-           onPress={() => {
-             this.notif.requestPermissions();
-           }}>
-           <Text>Request Permissions</Text>
-         </TouchableOpacity>
-         <TouchableOpacity
-           style={styles.button}
-           onPress={() => {
-             this.notif.cancelAllNotification();
-           }}>
-           <Text>Cancel All Notification</Text>
-         </TouchableOpacity>
-         <View style={styles.spacer}></View>
- 
-         {this.state.fcmRegistered && <Text>FCM Configured !</Text>}
- 
-         <View style={styles.spacer}></View> */}
-      </View>
+      <Navigator />
     );
   }
 
