@@ -4,6 +4,8 @@ import React from 'react';
 import Home from '../containers/Home';
 import { ArtiList, AudioPlayer } from '../containers/aarti'
 import More from '../containers/More';
+import VideoPlayer from '../containers/videos/videoPlayer';
+import VideoList from '../containers/videos/videoList';
 import PrivacyPolicy from '../containers/PrivacyPolicy';
 import AboutUs from '../containers/AboutUs';
 import TermsCondition from '../containers/TermsCondition';
@@ -30,6 +32,8 @@ class navigator extends React.Component {
           <Stack.Screen name="ArtiList" component={ArtiList} />
           <Stack.Screen name="AudioPlayer" component={AudioPlayer} />
           <Stack.Screen name="More" component={More} />
+          <Stack.Screen name="VideoPlayer" component={VideoPlayer} />
+          <Stack.Screen name="VideoList" component={VideoList} />
           <Stack.Screen name="PrivacyPolicy" component={PrivacyPolicy} />
           <Stack.Screen name="AboutUs" component={AboutUs} />
           <Stack.Screen name="TermsCondition" component={TermsCondition} />

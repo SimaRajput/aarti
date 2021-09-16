@@ -10,15 +10,14 @@ export default class AartiList extends React.Component {
   }
 
   onPress = (item) => {
-    Alert.alert('hii')
     const { navigation: { navigate }} = this.props;
-    navigate('AudioPlayer',{ data: item })
+    navigate('AudioPlayer')
   }
   
   
   renderItem({ item }) {
     return (
-    <TouchableOpacity style={styles.listItemView} key={item.id} onPress={()=>this?.onPress(item)}>
+    <TouchableOpacity style={styles.listItemView} key={item.id} onPress={this?.onPress()}>
       <Text>{item.title}</Text>
     </TouchableOpacity>
     );
