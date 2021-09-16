@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, TouchableOpacity, Text, StyleSheet, ViewPropTypes, Image, SafeAreaView } from 'react-native';
-import { bool, func, string  } from 'prop-types';
+import { bool, func, string } from 'prop-types';
 import Constants from '../constants';
 
 const styles = StyleSheet.create({
@@ -31,16 +31,16 @@ const styles = StyleSheet.create({
   headerLogo: {
     justifyContent: 'center',
     alignItems: 'center',
-    flex:1,
-    marginRight:22
+    flex: 1,
+    marginRight: 22
   },
   titleStyle: {
     color: Constants.Colors.WHITE,
     textTransform: 'capitalize',
-    fontSize:18
+    fontSize: 18
 
   },
- 
+
 });
 
 const Header = (props) => {
@@ -63,12 +63,12 @@ const Header = (props) => {
             onPress={onPressLeft}
             style={styles.content}
           >
-            {showLeftIcon ? <Image source={leftIcon} style={[styles.iconStyle,leftIconStyle]}></Image>:null}
+            {showLeftIcon ? <Image source={leftIcon} style={[styles.iconStyle, leftIconStyle]}></Image> : null}
 
           </TouchableOpacity>
           <View style={styles.headerLogo}>
-            {!hideTitle ? 
-             <Text style={styles.titleStyle}>{title}</Text>:null}
+            {!hideTitle ?
+              <Text style={styles.titleStyle}>{title}</Text> : null}
           </View>
         </View>
       </View>
@@ -80,8 +80,8 @@ Header.propTypes = {
   showLeftIcon: bool,
   onPressLeft: func,
   style: ViewPropTypes.style,
-  leftIconStyle: ViewPropTypes.leftIconStyle,
-  title:string
+  leftIconStyle: ViewPropTypes.style,
+  title: string
 };
 
 Header.defaultProps = {
