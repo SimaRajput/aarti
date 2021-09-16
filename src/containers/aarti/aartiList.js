@@ -9,28 +9,30 @@ export default class AartiList extends React.Component {
     super(props);
   }
 
-  onPress = (item) => {
+  onPress  ()  {
     const { navigation: { navigate }} = this.props;
-    navigate('AudioPlayer')
+    navigate('Home')
   }
   
-  
+
+
   renderItem({ item }) {
-    return (
-    <TouchableOpacity style={styles.listItemView} key={item.id} onPress={this?.onPress()}>
+    const { navigation: { navigate } } = this.props;
+    return (<TouchableOpacity
+      onPress={() => navigate('AudioPlayer', { item })}
+      style={styles.listItemView}>
       <Text>{item.title}</Text>
-    </TouchableOpacity>
-    );
+    </TouchableOpacity>)
   }
 
   render() {
-    const { navigation: { goBack } } = this.props;
+    const { navigation: { navigate, goBack } } = this.props;
     return (
       <SafeAreaView style={styles.container}>
         <Header leftIcon={Constants.Images.Back} showLeftIcon={true} title='Aartis' onPressLeft={()=>goBack()}  />
         <FlatList
           data={StaticData.playlist}
-          renderItem={this.renderItem}
+          renderItem={(item) => this.renderItem(item, { navigate })}
           keyExtractor={(item) => item.id}
           contentContainerStyle={styles.subContainer}
         // extraData={selectedId}

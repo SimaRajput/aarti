@@ -5,12 +5,12 @@ com/rndemo/BuildConfig.java
 com/rndemo/MainApplication.java
  com.rndemo.MainApplication
  com.rndemo.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/rndemo/MainActivity.java
+ com.rndemo.MainActivity
 com/rndemo/ReactNativeFlipper.java
  com.rndemo.ReactNativeFlipper
  com.rndemo.ReactNativeFlipper$1
  com.rndemo.ReactNativeFlipper$2
  com.rndemo.ReactNativeFlipper$2$1
-com/rndemo/MainActivity.java
- com.rndemo.MainActivity
-com/facebook/react/PackageList.java
- com.facebook.react.PackageList

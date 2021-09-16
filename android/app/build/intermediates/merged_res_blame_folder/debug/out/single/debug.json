@@ -1,35 +1,15 @@
 [
     {
-        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-ldpi_splashbottom.png.flat",
         "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-ldpi/splashbottom.png"
-    },
-    {
-        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-hdpi_splashottom.png.flat",
-        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-hdpi/splashottom.png"
     },
     {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
@@ -44,24 +24,20 @@
         "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-mdpi/splash.png"
     },
     {
-        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-ldpi_splash.png.flat",
-        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-ldpi/splash.png"
-    },
-    {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splasbottom.png.flat",
         "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-xxhdpi/splasbottom.png"
     },
     {
-        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splash.png.flat",
-        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-xxhdpi/splash.png"
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-ldpi_splash.png.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-ldpi/splash.png"
     },
     {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable_splashscreen.xml.flat",
         "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable/splashscreen.xml"
     },
     {
-        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-hdpi_splash.png.flat",
-        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-hdpi/splash.png"
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/raw_advertising.mp3.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/raw/advertising.mp3"
     },
     {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_splash.png.flat",
@@ -70,14 +46,6 @@
     {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_splash.png.flat",
         "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-xhdpi/splash.png"
-    },
-    {
-        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-mdpi_splasbottom.png.flat",
-        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-mdpi/splasbottom.png"
-    },
-    {
-        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_splasottom.png.flat",
@@ -90,5 +58,45 @@
     {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-hdpi_splashottom.png.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-hdpi/splashottom.png"
+    },
+    {
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splash.png.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-xxhdpi/splash.png"
+    },
+    {
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-hdpi_splash.png.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-mdpi_splasbottom.png.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-mdpi/splasbottom.png"
+    },
+    {
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/raw_audio.mp3.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/raw/audio.mp3"
     }
 ]
