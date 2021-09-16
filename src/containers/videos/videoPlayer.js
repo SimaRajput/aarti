@@ -59,8 +59,10 @@ const VideoPlayer = (props) => {
 
   const onFullScreen = () => {
     setIsFullScreen(isFullScreen);
-    if (screenType == 'content') setScreenType('cover');
-    else setScreenType('content');
+    if (screenType == 'contain') 
+    setScreenType('cover');
+    else 
+    setScreenType('contain');
   };
 
   const renderToolbar = () => (
@@ -74,7 +76,7 @@ const VideoPlayer = (props) => {
   const { item } = route.params;
 
   return (
-    <View style={{ flex: 1 }}>
+    <View style={styles.container}>
       <Video
         onEnd={onEnd}
         onLoad={onLoad}
