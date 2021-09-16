@@ -40,10 +40,35 @@ const moreData = [
     key: 'Share',
     icon: require('../assets/images/share.png'),
     title: 'Share'
-  }
+  },
+  
+
+]
+
+const socilaLinkData = [
+  {
+    id: 0,
+    key: 'Facebook',
+    icon: require('../assets/images/facebook.png'),
+    title: 'Facebook'
+  },
+  {
+    id: 1,
+    key: 'Twitter',
+    icon: require('../assets/images/twitter.png'),
+    title: 'Twitter'
+  },
+  {
+    id: 2,
+    key: 'Instagram',
+    icon: require('../assets/images/instagram.png'),
+    title: 'Instagram'
+  },
+  
 
 ]
 
 
 exports.playlist = playlist; 
 exports.moreData = moreData;
+exports.socilaLinkData = socilaLinkData;
