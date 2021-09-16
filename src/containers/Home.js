@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, SafeAreaView, TouchableOpacity, Text } from 'react-native';
+import { StyleSheet, View, SafeAreaView, TouchableOpacity, Text, ImageBackground } from 'react-native';
 import Constants from '../constants';
 import { Header } from '../components'
 
@@ -19,10 +19,8 @@ const styles = StyleSheet.create({
     marginVertical: Constants.BaseStyle.DEVICE_WIDTH / 100 * 5
   },
   leftIconStyle: {
-      height: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 8,
-      width: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 8,
-      resizeMode: 'contain'
-    
+    height: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 8,
+    width: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 8,
   }
 })
 
@@ -34,8 +32,8 @@ class Home extends Component {
     const { navigation: { navigate } } = this.props;
     return (
       <SafeAreaView style={{ flex: 1 }}>
-        <Header onPressLeft={() => navigate('More')} leftIcon={Constants.Images.More} showLeftIcon={true} title='Home'leftIconStyle={styles.leftIconStyle} />
-        <View style={styles.container}>
+        <Header onPressLeft={() => navigate('More')} leftIcon={Constants.Images.More} showLeftIcon={true} title='Home' leftIconStyle={styles.leftIconStyle} />
+        <ImageBackground source={Constants.Images.homebg} resizeMode="cover" style={styles.container}>
           <TouchableOpacity
             style={styles.buttonView}
             onPress={() => navigate('ArtiList')}>
@@ -49,7 +47,7 @@ class Home extends Component {
           <TouchableOpacity style={styles.buttonView}>
             <Text>15 Min OM Meditation</Text>
           </TouchableOpacity>
-        </View>
+        </ImageBackground>
 
       </SafeAreaView>
     )
