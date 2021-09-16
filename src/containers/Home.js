@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
 class Home extends Component {
   constructor(props) {
     super(props);
-    console.log('props', props);
+    console.log('props2223', props);
   }
   render() {
     const { navigation: { navigate } } = this.props;
@@ -39,7 +39,7 @@ class Home extends Component {
         <View style={styles.container}>
           <TouchableOpacity
             style={styles.buttonView}
-            onPress={() => navigate('Aarti')}>
+            onPress={() => navigate('ArtiList')}>
             <Text>Aarti</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.buttonView}>
