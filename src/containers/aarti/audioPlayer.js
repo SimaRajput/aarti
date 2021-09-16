@@ -1,20 +1,10 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, SafeAreaView, Text,Button } from 'react-native';
+import { View, SafeAreaView, Text,Button } from 'react-native';
 import Constants from '../../constants';
 import { Header } from '../../components';
 import Sound from 'react-native-sound';
+import styles from './audioPlayerStyles';
 
-const styles = StyleSheet.create({
-  
-  safeArea: {
-     flex:1
-    },
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-})
 
 class AudioPlayer extends Component {
   constructor(props) {
