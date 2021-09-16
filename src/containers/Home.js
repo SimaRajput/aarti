@@ -29,7 +29,6 @@ const styles = StyleSheet.create({
 class Home extends Component {
   constructor(props) {
     super(props);
-    console.log('props', props);
   }
   render() {
     const { navigation: { navigate } } = this.props;
@@ -42,7 +41,9 @@ class Home extends Component {
             onPress={() => navigate('Aarti')}>
             <Text>Aarti</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.buttonView}>
+          <TouchableOpacity
+            onPress={() => navigate('VideoList')}
+            style={styles.buttonView}>
             <Text>Videos</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.buttonView}>

@@ -22,6 +22,24 @@ const playlist = [
   }
 ];
 
+const videoList = [
+  {
+    key: 1,
+    title: 'SampleText',
+    video: 'https://assets.mixkit.co/videos/download/mixkit-countryside-meadow-4075.mp4'
+  },
+  {
+    key: 2,
+    title: "Peaceful Dawn",
+    video: 'https://assets.mixkit.co/videos/download/mixkit-countryside-meadow-4075.mp4'
+  },
+  {
+    key: 3,
+    title: "Sample Text",
+    video: 'https://assets.mixkit.co/videos/download/mixkit-countryside-meadow-4075.mp4'
+  }
+]
+
 const moreData = [
   {
     id: 0,
@@ -47,7 +65,7 @@ const moreData = [
     icon: require('../assets/images/share.png'),
     title: 'Share'
   },
-  
+
 
 ]
 
@@ -70,11 +88,12 @@ const socilaLinkData = [
     icon: require('../assets/images/instagram.png'),
     title: 'Instagram'
   },
-  
+
 
 ]
 
 
-exports.playlist = playlist; 
+exports.playlist = playlist;
+exports.videoList = videoList;
 exports.moreData = moreData;
 exports.socilaLinkData = socilaLinkData;

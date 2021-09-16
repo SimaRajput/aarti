@@ -4,24 +4,28 @@ import { Header } from '../../components';
 import Constants from '../../constants';
 import StaticData from '../../utils/staticData';
 
-export default class Aarti extends React.Component {
+export default class VideoList extends React.Component {
   constructor(props) {
     super(props);
   }
+
   renderItem({ item }) {
-    return <TouchableOpacity style={styles.listItemView}>
+    const { navigation: { navigate } } = this.props;
+    return (<TouchableOpacity
+      onPress={() => navigate('VideoPlayer', { item })}
+      style={styles.listItemView}>
       <Text>{item.title}</Text>
-    </TouchableOpacity>
+    </TouchableOpacity>)
   }
 
   render() {
     const { navigation: { navigate, goBack } } = this.props;
     return (
       <SafeAreaView style={styles.container}>
-        <Header leftIcon={Constants.Images.Back} showLeftIcon={true} title='Aartis' onPressLeft={() => goBack()} />
+        <Header leftIcon={Constants.Images.Back} showLeftIcon={true} title='Videos' onPressLeft={() => goBack()} />
         <FlatList
-          data={StaticData.playlist}
-          renderItem={this.renderItem}
+          data={StaticData.videoList}
+          renderItem={(item) => this.renderItem(item, { navigate })}
           keyExtractor={(item) => item.key}
         // extraData={selectedId}
         />
