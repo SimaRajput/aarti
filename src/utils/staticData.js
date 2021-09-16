@@ -55,10 +55,40 @@ const moreData = [
   },
   {
     id: 2,
+    key: 'TermsCondition',
+    icon: require('../assets/images/terms-and-conditions.png'),
+    title: 'Terms Condition'
+  },
+  {
+    id: 3,
     key: 'Share',
     icon: require('../assets/images/share.png'),
     title: 'Share'
-  }
+  },
+
+
+]
+
+const socilaLinkData = [
+  {
+    id: 0,
+    key: 'Facebook',
+    icon: require('../assets/images/facebook.png'),
+    title: 'Facebook'
+  },
+  {
+    id: 1,
+    key: 'Twitter',
+    icon: require('../assets/images/twitter.png'),
+    title: 'Twitter'
+  },
+  {
+    id: 2,
+    key: 'Instagram',
+    icon: require('../assets/images/instagram.png'),
+    title: 'Instagram'
+  },
+
 
 ]
 
@@ -66,3 +96,4 @@ const moreData = [
 exports.playlist = playlist;
 exports.videoList = videoList;
 exports.moreData = moreData;
+exports.socilaLinkData = socilaLinkData;

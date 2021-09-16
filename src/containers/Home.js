@@ -17,6 +17,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginVertical: Constants.BaseStyle.DEVICE_WIDTH / 100 * 5
+  },
+  leftIconStyle: {
+      height: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 8,
+      width: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 8,
+      resizeMode: 'contain'
+    
   }
 })
 
@@ -28,7 +34,7 @@ class Home extends Component {
     const { navigation: { navigate } } = this.props;
     return (
       <SafeAreaView style={{ flex: 1 }}>
-        <Header onPressLeft={() => navigate('More')} leftIcon={Constants.Images.More} showLeftIcon={true} title='Home' />
+        <Header onPressLeft={() => navigate('More')} leftIcon={Constants.Images.More} showLeftIcon={true} title='Home'leftIconStyle={styles.leftIconStyle} />
         <View style={styles.container}>
           <TouchableOpacity
             style={styles.buttonView}
