@@ -4,7 +4,8 @@ import React from 'react';
 import Home from '../containers/Home';
 import Aarti from '../containers/aarti';
 import More from '../containers/More';
-
+import VideoPlayer from '../containers/videos/videoPlayer';
+import VideoList from '../containers/videos/videoList';
 
 const stackNavigatorConfiguration = {
   headerShown: false,
@@ -23,6 +24,8 @@ class navigator extends React.Component {
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Aarti" component={Aarti} />
           <Stack.Screen name="More" component={More} />
+          <Stack.Screen name="VideoPlayer" component={VideoPlayer} />
+          <Stack.Screen name="VideoList" component={VideoList} />
         </Stack.Navigator>
       </NavigationContainer>
     )
