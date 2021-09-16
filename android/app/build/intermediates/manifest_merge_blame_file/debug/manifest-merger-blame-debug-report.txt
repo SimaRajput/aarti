@@ -45,8 +45,8 @@
 22-->[com.google.firebase:firebase-messaging:22.0.0] /home/teamlance21/.gradle/caches/transforms-3/27f36dac8e894735dac52c3df6ab6869/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
 22-->[com.google.firebase:firebase-messaging:22.0.0] /home/teamlance21/.gradle/caches/transforms-3/27f36dac8e894735dac52c3df6ab6869/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
 23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
-23-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
-23-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+23-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:22-107
 24    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
 25    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
 26    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
@@ -303,17 +303,17 @@
 149                android:value="com.google.firebase.components.ComponentRegistrar" />
 149-->[com.google.firebase:firebase-storage:20.0.0] /home/teamlance21/.gradle/caches/transforms-3/68f4b95fa43c95f8f0cba9b488bf87ff/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
 150            <meta-data
-150-->[com.google.firebase:firebase-database:20.0.1] /home/teamlance21/.gradle/caches/transforms-3/6112becd54e7096b3ae7ade0a1256f4b/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:32:13-34:85
+150-->[com.google.firebase:firebase-database:20.0.2] /home/teamlance21/.gradle/caches/transforms-3/d5971b96d8f956c49c04707b49176528/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:32:13-34:85
 151                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-151-->[com.google.firebase:firebase-database:20.0.1] /home/teamlance21/.gradle/caches/transforms-3/6112becd54e7096b3ae7ade0a1256f4b/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:33:17-109
+151-->[com.google.firebase:firebase-database:20.0.2] /home/teamlance21/.gradle/caches/transforms-3/d5971b96d8f956c49c04707b49176528/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:33:17-109
 152                android:value="com.google.firebase.components.ComponentRegistrar" />
-152-->[com.google.firebase:firebase-database:20.0.1] /home/teamlance21/.gradle/caches/transforms-3/6112becd54e7096b3ae7ade0a1256f4b/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:34:17-82
+152-->[com.google.firebase:firebase-database:20.0.2] /home/teamlance21/.gradle/caches/transforms-3/d5971b96d8f956c49c04707b49176528/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:34:17-82
 153            <meta-data
-153-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/b8baafe14bcc68c071d89b53dca1a595/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+153-->[com.google.android.gms:play-services-measurement-api:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/d4d71a606dcce73bdba9026831108c6b/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
 154                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-154-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/b8baafe14bcc68c071d89b53dca1a595/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+154-->[com.google.android.gms:play-services-measurement-api:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/d4d71a606dcce73bdba9026831108c6b/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
 155                android:value="com.google.firebase.components.ComponentRegistrar" />
-155-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/b8baafe14bcc68c071d89b53dca1a595/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+155-->[com.google.android.gms:play-services-measurement-api:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/d4d71a606dcce73bdba9026831108c6b/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
 156            <meta-data
 156-->[com.google.firebase:firebase-installations:17.0.0] /home/teamlance21/.gradle/caches/transforms-3/6c13ae0191a2b6a84c8b75f5df7aec65/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
 157                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
@@ -437,33 +437,33 @@
 225-->[com.google.android.gms:play-services-auth:19.2.0] /home/teamlance21/.gradle/caches/transforms-3/2c3922057f10c76694c4247d75cedfbe/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
 226
 227        <receiver
-227-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+227-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
 228            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-228-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+228-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
 229            android:enabled="true"
-229-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+229-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
 230            android:exported="false" >
-230-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+230-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
 231        </receiver>
 232
 233        <service
-233-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+233-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
 234            android:name="com.google.android.gms.measurement.AppMeasurementService"
-234-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+234-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
 235            android:enabled="true"
-235-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+235-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
 236            android:exported="false" />
-236-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+236-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
 237        <service
-237-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+237-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
 238            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-238-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+238-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
 239            android:enabled="true"
-239-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+239-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
 240            android:exported="false"
-240-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+240-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
 241            android:permission="android.permission.BIND_JOB_SERVICE" />
-241-->[com.google.android.gms:play-services-measurement:19.0.0] /home/teamlance21/.gradle/caches/transforms-3/838a70de7b1af63a9a1a6c1c0c5f3d9c/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+241-->[com.google.android.gms:play-services-measurement:19.0.1] /home/teamlance21/.gradle/caches/transforms-3/08b4f2e39a9ea3ac5b536b10b4d1f124/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
 242
 243        <activity
 243-->[com.google.android.gms:play-services-base:17.5.0] /home/teamlance21/.gradle/caches/transforms-3/be25f8ad5181a64930eec0d2f8b83e45/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75

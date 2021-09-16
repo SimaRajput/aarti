@@ -36,7 +36,7 @@ class Home extends Component {
         <ImageBackground source={Constants.Images.homebg} resizeMode="cover" style={styles.container}>
           <TouchableOpacity
             style={styles.buttonView}
-            onPress={() => navigate('Aarti')}>
+            onPress={() => navigate('ArtiList')}>
             <Text>Aarti</Text>
           </TouchableOpacity>
           <TouchableOpacity
