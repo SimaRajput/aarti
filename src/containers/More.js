@@ -45,7 +45,12 @@ const styles = StyleSheet.create({
 class More extends Component {
 
   onPressItem = (item) => {
-    alert(item.title)
+    const { navigation: { navigate }} = this.props;
+    if(item.key == 'Share'){
+      return;
+    }
+    navigate(item.key);
+    
   }
 
   onPressSocialLink = (item) => {

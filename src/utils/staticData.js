@@ -37,6 +37,12 @@ const moreData = [
   },
   {
     id: 2,
+    key: 'TermsCondition',
+    icon: require('../assets/images/terms-and-conditions.png'),
+    title: 'Terms Condition'
+  },
+  {
+    id: 3,
     key: 'Share',
     icon: require('../assets/images/share.png'),
     title: 'Share'

@@ -24,8 +24,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   iconStyle: {
-    height: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 8,
-    width: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 8,
+    height: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 6,
+    width: (Constants.BaseStyle.DEVICE_WIDTH / 100) * 6,
     resizeMode: 'contain'
   },
   headerLogo: {
@@ -50,7 +50,8 @@ const Header = (props) => {
     hideTitle,
     title,
     showLeftIcon,
-    leftIcon
+    leftIcon,
+    leftIconStyle
   } = props;
   return (
     <SafeAreaView>
@@ -62,7 +63,7 @@ const Header = (props) => {
             onPress={onPressLeft}
             style={styles.content}
           >
-            {showLeftIcon ? <Image source={leftIcon} style={styles.iconStyle}></Image>:null}
+            {showLeftIcon ? <Image source={leftIcon} style={[styles.iconStyle,leftIconStyle]}></Image>:null}
 
           </TouchableOpacity>
           <View style={styles.headerLogo}>
@@ -79,6 +80,7 @@ Header.propTypes = {
   showLeftIcon: bool,
   onPressLeft: func,
   style: ViewPropTypes.style,
+  leftIconStyle: ViewPropTypes.leftIconStyle,
   title:string
 };
 
