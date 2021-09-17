@@ -36,7 +36,7 @@ class Home extends Component {
         <ImageBackground source={Constants.Images.homebg} resizeMode="cover" style={styles.container}>
           <TouchableOpacity
             style={styles.buttonView}
-            onPress={() => navigate('ArtiList')}>
+            onPress={() => navigate('ArtiList', { title: 'Aartis' })}>
             <Text>Aarti</Text>
           </TouchableOpacity>
           <TouchableOpacity
@@ -44,7 +44,9 @@ class Home extends Component {
             style={styles.buttonView}>
             <Text>Videos</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.buttonView}>
+          <TouchableOpacity
+            onPress={() => navigate('ArtiList', { title: 'Meditation' })}
+            style={styles.buttonView}>
             <Text>15 Min OM Meditation</Text>
           </TouchableOpacity>
         </ImageBackground>

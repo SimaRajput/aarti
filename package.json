@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@react-native-community/push-notification-ios": "^1.10.1",
+    "@react-native-community/slider": "^4.1.6",
     "@react-native-firebase/app": "^12.7.5",
     "@react-native-firebase/database": "^12.7.5",
     "@react-native-firebase/messaging": "^12.7.5",

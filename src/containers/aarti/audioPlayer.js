@@ -1,7 +1,9 @@
 import React from 'react'
-import { View, Image, Text, Slider, TouchableOpacity, Platform, Alert, SafeAreaView } from 'react-native';
+import { View, Image, Text, TouchableOpacity, Platform, Alert, SafeAreaView } from 'react-native';
 import Sound from 'react-native-sound';
 import Constants from '../../constants';
+import styles from './styles';
+import Slider from '@react-native-community/slider';
 
 export default class AudioPlayer extends React.Component {
 
@@ -120,40 +122,42 @@ export default class AudioPlayer extends React.Component {
 
     const currentTimeString = this.getAudioTimeString(this.state.playSeconds);
     const durationString = this.getAudioTimeString(this.state.duration);
+    const img = this.props.route.params.item.cover
 
     return (
-      <SafeAreaView style={{ flex: 1, justifyContent: 'center', backgroundColor: 'black' }}>
-        <Image source={Constants.Images.audioSpeaker} style={{ width: 150, height: 150, marginBottom: 15, alignSelf: 'center' }} />
-        <View style={{ flexDirection: 'row', justifyContent: 'center', marginVertical: 15 }}>
+      <SafeAreaView style={styles.playerContainer}>
+        <Image source={{ uri: img }} style={styles.mainImage} />
+        <View style={styles.playerView}>
           <TouchableOpacity onPress={this.jumpPrev15Seconds} style={{ justifyContent: 'center' }}>
-            <Image source={Constants.Images.audioJumpLeft} style={{ width: 30, height: 30 }} />
-            <Text style={{ position: 'absolute', alignSelf: 'center', marginTop: 1, color: 'white', fontSize: 12 }}>15</Text>
+            <Image source={Constants.Images.audioJumpLeft} style={styles.mediaImage} />
+            <Text style={styles.mediaText}>15</Text>
           </TouchableOpacity>
           {this.state.playState == 'playing' &&
-            <TouchableOpacity onPress={this.pause} style={{ marginHorizontal: 20 }}>
-              <Image source={Constants.Images.audioPause} style={{ width: 30, height: 30 }} />
+            <TouchableOpacity onPress={this.pause} style={styles.buttonSpacing}>
+              <Image source={Constants.Images.audioPause} style={styles.mediaImage} />
             </TouchableOpacity>}
           {this.state.playState == 'paused' &&
-            <TouchableOpacity onPress={this.play} style={{ marginHorizontal: 20 }}>
-              <Image source={Constants.Images.audioPlay} style={{ width: 30, height: 30 }} />
+            <TouchableOpacity onPress={this.play} style={styles.buttonSpacing}>
+              <Image source={Constants.Images.audioPlay} style={styles.mediaImage} />
             </TouchableOpacity>}
           <TouchableOpacity onPress={this.jumpNext15Seconds} style={{ justifyContent: 'center' }}>
-            <Image source={Constants.Images.audioJumpRight} style={{ width: 30, height: 30 }} />
-            <Text style={{ position: 'absolute', alignSelf: 'center', marginTop: 1, color: 'white', fontSize: 12 }}>15</Text>
+            <Image source={Constants.Images.audioJumpRight} style={styles.mediaImage} />
+            <Text style={styles.mediaText}>15</Text>
           </TouchableOpacity>
         </View>
-        <View style={{ marginVertical: 15, marginHorizontal: 15, flexDirection: 'row' }}>
-          <Text style={{ color: 'white', alignSelf: 'center' }}>{currentTimeString}</Text>
+        <View style={styles.sliderView}>
+          <Text style={styles.duration}>{currentTimeString}</Text>
           <Slider
-            onTouchStart={this.onSliderEditStart}
-            // onTouchMove={() => console.log('onTouchMove')}
-            onTouchEnd={this.onSliderEditEnd}
-            // onTouchEndCapture={() => console.log('onTouchEndCapture')}
-            // onTouchCancel={() => console.log('onTouchCancel')}
+            onSlidingStart={this.onSliderEditStart}
+            onSlidingComplete={this.onSliderEditEnd}
             onValueChange={this.onSliderEditing}
-            value={this.state.playSeconds} maximumValue={this.state.duration} maximumTrackTintColor='gray' minimumTrackTintColor='white' thumbTintColor='white'
-            style={{ flex: 1, alignSelf: 'center', marginHorizontal: Platform.select({ ios: 5 }) }} />
-          <Text style={{ color: 'white', alignSelf: 'center' }}>{durationString}</Text>
+            value={this.state.playSeconds}
+            maximumValue={this.state.duration}
+            maximumTrackTintColor='gray'
+            minimumTrackTintColor='white'
+            thumbTintColor='white'
+            style={styles.slider} />
+          <Text style={styles.duration}>{durationString}</Text>
         </View>
       </SafeAreaView>
     )

@@ -37,7 +37,8 @@ const styles = StyleSheet.create({
   titleStyle: {
     color: Constants.Colors.WHITE,
     textTransform: 'capitalize',
-    fontSize: 18
+    fontSize: 18,
+    fontWeight: 'bold'
 
   },
 

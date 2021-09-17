@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, SafeAreaView, TouchableOpacity, Text, Image, ScrollView } from 'react-native';
-import Constants from '../constants';
-import { Header } from '../components';
-import StaticData from '../utils/staticData';
-import { openFacebookUrl, openTwitterUrl, openInstagramUrl } from "../utils/linkHelper";
+import Constants from '../../constants';
+import { Header } from '../../components';
+import StaticData from '../../utils/staticData';
+import { openFacebookUrl, openTwitterUrl, openInstagramUrl } from "../../utils/linkHelper";
 
 const styles = StyleSheet.create({
   container: {
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     borderRadius: 150 / 2
   },
   socilaLinksView: {
-    marginTop:Constants.BaseStyle.DEVICE_WIDTH / 100 * 5,
+    marginTop: Constants.BaseStyle.DEVICE_WIDTH / 100 * 5,
   }
 })
 
@@ -45,34 +45,34 @@ const styles = StyleSheet.create({
 class More extends Component {
 
   onPressItem = (item) => {
-    const { navigation: { navigate }} = this.props;
-    if(item.key == 'Share'){
+    const { navigation: { navigate } } = this.props;
+    if (item.key == 'Share') {
       return;
     }
     navigate(item.key);
-    
+
   }
 
   onPressSocialLink = (item) => {
-    if(item.key == 'Facebook'){
+    if (item.key == 'Facebook') {
       openFacebookUrl('simar.rajput08071994')
     }
-    if(item.key == 'Twitter'){
+    if (item.key == 'Twitter') {
       openTwitterUrl('SimarRajput9')
     }
-    if(item.key == 'Instagram'){
+    if (item.key == 'Instagram') {
       openInstagramUrl('simarrajput12')
     }
-    
+
 
   }
 
 
   render() {
-    const { navigation: { goBack }} = this.props;
+    const { navigation: { goBack } } = this.props;
     return (
       <SafeAreaView style={{ flex: 1 }}>
-        <Header leftIcon={Constants.Images.Back} showLeftIcon={true} title='More' onPressLeft={()=>goBack()} />
+        <Header leftIcon={Constants.Images.Back} showLeftIcon={true} title='More' onPressLeft={() => goBack()} />
         <ScrollView contentContainerStyle={styles.container}>
           <View style={styles.logoStyle}>
             <Image source={Constants.Images.Logo} style={styles.logo} resizeMode='contain'></Image>
@@ -86,8 +86,8 @@ class More extends Component {
             ))}
           </View>
           <View style={styles.socilaLinksView}>
-          <Text style={styles.textStyle}>{'------- Follow me on -------'}</Text>
-          {StaticData.socilaLinkData.map(item => (
+            <Text style={styles.textStyle}>{'------- Follow me on -------'}</Text>
+            {StaticData.socilaLinkData.map(item => (
               <TouchableOpacity style={styles.rowContainer} onPress={() => this.onPressSocialLink(item)} key={item.id}>
                 <Image source={item.icon} style={styles.iconStyle} resizeMode='contain'></Image>
                 <Text style={styles.textStyle}>{item.title}</Text>

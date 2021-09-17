@@ -3,12 +3,12 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import Home from '../containers/Home';
 import { ArtiList, AudioPlayer } from '../containers/aarti'
-import More from '../containers/More';
+import More from '../containers/settings/More';
 import VideoPlayer from '../containers/videos/videoPlayer';
 import VideoList from '../containers/videos/videoList';
-import PrivacyPolicy from '../containers/PrivacyPolicy';
-import AboutUs from '../containers/AboutUs';
-import TermsCondition from '../containers/TermsCondition';
+import PrivacyPolicy from '../containers/settings/PrivacyPolicy';
+import AboutUs from '../containers/settings/AboutUs';
+import TermsCondition from '../containers/settings/TermsCondition';
 
 
 const stackNavigatorConfiguration = {
@@ -20,9 +20,9 @@ const stackNavigatorConfiguration = {
 export const Stack = createNativeStackNavigator();
 
 class navigator extends React.Component {
-  constructor(props){
-  super(props);
-}
+  constructor(props) {
+    super(props);
+  }
 
   render() {
     return (
