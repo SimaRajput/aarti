@@ -22,6 +22,7 @@
     "react-native-audio": "^4.3.0",
     "react-native-media-controls": "^2.3.0",
     "react-native-push-notification": "^8.1.0",
+    "react-native-push-notification-popup": "^1.6.0",
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.7.2",
     "react-native-slider": "^0.11.0",

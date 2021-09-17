@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, SafeAreaView, TouchableOpacity, Text, ImageBackground } from 'react-native';
 import Constants from '../constants';
-import { Header } from '../components'
+import { Header } from '../components';
+import PushNotification from 'react-native-push-notification'
 
 const styles = StyleSheet.create({
   container: {
@@ -28,6 +29,7 @@ class Home extends Component {
   constructor(props) {
     super(props);
   }
+
   render() {
     const { navigation: { navigate } } = this.props;
     return (

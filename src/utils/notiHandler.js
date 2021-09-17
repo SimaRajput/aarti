@@ -8,6 +8,7 @@ class NotificationHandler {
       this._onNotification(notification);
     }
   }
+  
 
   onRegister(token) {
     console.log('NotificationHandler:', token);

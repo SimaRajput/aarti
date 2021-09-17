@@ -41,16 +41,40 @@ import Sound from 'react-native-sound';
 // ];
 
 const playlist = [
-
+  {
+    id: 0,
+    title: 'Emergence of Talents',
+    url: 'https://raw.githubusercontent.com/zmxv/react-native-sound-demo/master/advertising.mp3',
+    cover:
+      'https://images.unsplash.com/photo-1515552726023-7125c8d07fb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80',
+  },
   {
     id: 1,
-    url: require("../tracks/advertising.mp3"),
-    title: "Advertising",
+    title: 'Shippuden',
+    url: 'https://raw.githubusercontent.com/zmxv/react-native-sound-demo/master/advertising.mp3',
+    cover:
+      'https://images.unsplash.com/photo-1542359649-31e03cd4d909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80',
   },
   {
     id: 2,
-    url: require("../tracks/file_example.mp3"),
-    title: "FileExample",
+    title: 'Rising Dragon',
+    url: 'https://raw.githubusercontent.com/zmxv/react-native-sound-demo/master/advertising.mp3',
+    cover:
+      'https://images.unsplash.com/photo-1512036666432-2181c1f26420?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
+  },
+  {
+    id: 3,
+    title: 'Risking it all',
+    url: 'https://raw.githubusercontent.com/zmxv/react-native-sound-demo/master/advertising.mp3',
+    cover:
+      'https://images.unsplash.com/photo-1501761095094-94d36f57edbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80',
+  },
+  {
+    id: 4,
+    title: 'Gekiha',
+    url: 'https://raw.githubusercontent.com/zmxv/react-native-sound-demo/master/advertising.mp3',
+    cover:
+      'https://images.unsplash.com/photo-1471400974796-1c823d00a96f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
   },
 
 ]
