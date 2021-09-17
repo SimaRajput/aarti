@@ -2,7 +2,6 @@ import React from 'react'
 import { View, Image, Text, Slider, TouchableOpacity, Platform, Alert, SafeAreaView } from 'react-native';
 import Sound from 'react-native-sound';
 import Constants from '../../constants';
-import { Header } from '../../components';
 
 export default class AudioPlayer extends React.Component {
 

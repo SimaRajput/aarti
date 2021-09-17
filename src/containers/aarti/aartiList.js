@@ -1,8 +1,9 @@
 import React from 'react';
-import { FlatList, View, TouchableOpacity, Text, SafeAreaView, StyleSheet, Alert } from 'react-native';
+import { FlatList, View, TouchableOpacity, Text, SafeAreaView } from 'react-native';
 import { Header } from '../../components';
 import Constants from '../../constants';
 import StaticData from '../../utils/staticData';
+import styles from './aartiListStyles'
 
 export default class AartiList extends React.Component {
   constructor(props) {
@@ -34,23 +35,3 @@ export default class AartiList extends React.Component {
     )
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  subContainer: {
-    top: Constants.BaseStyle.DEVICE_HEIGHT / 100 * 3,
-  },
-  listItemView: {
-    height: Constants.BaseStyle.DEVICE_HEIGHT / 100 * 6,
-    backgroundColor: Constants.Colors.SECONDARY_COLOR,
-    width: Constants.BaseStyle.DEVICE_WIDTH,
-    justifyContent: 'center',
-    alignItems: 'flex-start',
-    paddingLeft: Constants.BaseStyle.DEVICE_WIDTH / 100 * 4,
-    marginBottom: Constants.BaseStyle.DEVICE_WIDTH / 100 * 4
-  }
-})
