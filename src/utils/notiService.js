@@ -23,6 +23,10 @@ export default class NotifService {
     });
   }
 
+  componentDidMount(){
+    this.scheduleNotif();
+  }
+
  
  
 
@@ -116,7 +120,7 @@ export default class NotifService {
       date: new Date(Date.now() + 10 * 1000), // in 30 secs
       foreground: true,
       repeatType: 'time',
-      repeatTime: 10000,
+      repeatTime: 1000,
       /* Android Only Properties */
       channelId: soundName ? 'sound-channel-id' : 'default-channel-id',
       ticker: 'My Notification Ticker', // (optional)

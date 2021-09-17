@@ -21,8 +21,6 @@ import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
 import io.invertase.firebase.storage.ReactNativeFirebaseStoragePackage;
 // react-native-audio
 import com.rnim.rn.audio.ReactNativeAudioPackage;
-// react-native-orientation
-import com.github.yamill.orientation.OrientationPackage;
 // react-native-push-notification
 import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 // react-native-safe-area-context
@@ -85,7 +83,6 @@ public class PackageList {
       new ReactNativeFirebaseMessagingPackage(),
       new ReactNativeFirebaseStoragePackage(),
       new ReactNativeAudioPackage(),
-      new OrientationPackage(),
       new ReactNativePushNotificationPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),

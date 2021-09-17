@@ -16,7 +16,6 @@ import {
   Alert,
   SafeAreaView
 } from 'react-native';
-import NotifService from './utils/notiService';
 import Navigator from './config/navigator';
 import SplashScreen from "react-native-splash-screen";
 import messaging from '@react-native-firebase/messaging';
@@ -26,16 +25,11 @@ export default class App extends Component {
     super(props);
     this.state = {};
 
-    this.notif = new NotifService(
-      this.onRegister.bind(this),
-      this.onNotif.bind(this),
-    );
   }
 
   componendDidMount() {
     SplashScreen.hide();
     this.requestUserPermission();
-    this.notif.scheduleNotif();
   }
 
   async requestUserPermission() {

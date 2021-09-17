@@ -13,7 +13,6 @@ MERGED from [:react-native-firebase_messaging] /home/teamlance21/Documents/react
 MERGED from [:react-native-firebase_storage] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-firebase_app] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-27:12
 MERGED from [:react-native-audio] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-orientation] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-orientation/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-push-notification] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -385,8 +384,6 @@ MERGED from [:react-native-firebase_app] /home/teamlance21/Documents/react-nativ
 MERGED from [:react-native-firebase_app] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-audio] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-audio] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-audio/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-orientation] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-orientation/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-orientation] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-orientation/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-push-notification] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-push-notification] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /home/teamlance21/Documents/react-native/aarti/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
