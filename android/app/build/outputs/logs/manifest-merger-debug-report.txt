@@ -8,6 +8,7 @@ MERGED from /home/teamlance21/Documents/react-native/aarti/android/app/src/main/
 MERGED from [com.facebook.flipper:flipper:0.93.0] /home/teamlance21/.gradle/caches/transforms-3/064c3a7a7c97b2965ae18d4a27586914/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.93.0] /home/teamlance21/.gradle/caches/transforms-3/fcd86900474213d9b72eaf3574d2e663/transformed/jetified-flipper-network-plugin-0.93.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.93.0] /home/teamlance21/.gradle/caches/transforms-3/5bea35c0a79d75a6e621b64c4d5f4a89/transformed/jetified-flipper-fresco-plugin-0.93.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-community_slider] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-community/slider/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-firebase_database] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-firebase_messaging] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-43:12
 MERGED from [:react-native-firebase_storage] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
@@ -106,9 +107,9 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/teamlance21/.gradle/ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/8bbee476648d8f3a501ed2af2aa77f2f/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/3cd627bba8f3d093208dc561535d7703/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/080f65860a470a94d3e1832dd1e9d1f7/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/fbc09f8f49d4986892eaccd4bf71f35d/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/teamlance21/.gradle/caches/transforms-3/68bbc308872bbb3232a5c78a9cbe8d50/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
 MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /home/teamlance21/.gradle/caches/transforms-3/f56bd66369d61acbdd2aa27b65304805/transformed/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:2:1-12:12
-MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/fbc09f8f49d4986892eaccd4bf71f35d/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/e692877f47991c60e6ced784e802e543/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml:2:1-13:12
@@ -374,6 +375,8 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.93.0] /home/teamlance
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.93.0] /home/teamlance21/.gradle/caches/transforms-3/fcd86900474213d9b72eaf3574d2e663/transformed/jetified-flipper-network-plugin-0.93.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.93.0] /home/teamlance21/.gradle/caches/transforms-3/5bea35c0a79d75a6e621b64c4d5f4a89/transformed/jetified-flipper-fresco-plugin-0.93.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.93.0] /home/teamlance21/.gradle/caches/transforms-3/5bea35c0a79d75a6e621b64c4d5f4a89/transformed/jetified-flipper-fresco-plugin-0.93.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-community_slider] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-community/slider/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_slider] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-community/slider/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_database] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_database] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_messaging] /home/teamlance21/Documents/react-native/aarti/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -570,12 +573,12 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/t
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/3cd627bba8f3d093208dc561535d7703/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/080f65860a470a94d3e1832dd1e9d1f7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/teamlance21/.gradle/caches/transforms-3/080f65860a470a94d3e1832dd1e9d1f7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/fbc09f8f49d4986892eaccd4bf71f35d/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/fbc09f8f49d4986892eaccd4bf71f35d/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/teamlance21/.gradle/caches/transforms-3/68bbc308872bbb3232a5c78a9cbe8d50/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/teamlance21/.gradle/caches/transforms-3/68bbc308872bbb3232a5c78a9cbe8d50/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /home/teamlance21/.gradle/caches/transforms-3/f56bd66369d61acbdd2aa27b65304805/transformed/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
 MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /home/teamlance21/.gradle/caches/transforms-3/f56bd66369d61acbdd2aa27b65304805/transformed/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
-MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/fbc09f8f49d4986892eaccd4bf71f35d/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/teamlance21/.gradle/caches/transforms-3/fbc09f8f49d4986892eaccd4bf71f35d/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/e692877f47991c60e6ced784e802e543/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/teamlance21/.gradle/caches/transforms-3/e692877f47991c60e6ced784e802e543/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/teamlance21/Documents/react-native/aarti/android/app/src/debug/AndroidManifest.xml

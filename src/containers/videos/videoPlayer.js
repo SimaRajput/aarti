@@ -1,8 +1,8 @@
 import React, { useState, useRef } from 'react';
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import Video from 'react-native-video';
 import MediaControls, { PLAYER_STATES } from 'react-native-media-controls';
-import Constants from '../../constants';
+import styles from './styles';
 
 const VideoPlayer = (props) => {
   const videoPlayer = useRef(null);
@@ -59,10 +59,10 @@ const VideoPlayer = (props) => {
 
   const onFullScreen = () => {
     setIsFullScreen(isFullScreen);
-    if (screenType == 'contain') 
-    setScreenType('cover');
-    else 
-    setScreenType('contain');
+    if (screenType == 'contain')
+      setScreenType('cover');
+    else
+      setScreenType('contain');
   };
 
   const renderToolbar = () => (
@@ -111,24 +111,3 @@ const VideoPlayer = (props) => {
 };
 
 export default VideoPlayer;
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  toolbar: {
-    marginTop: 30,
-    backgroundColor: 'white',
-    padding: 10,
-    borderRadius: 5,
-  },
-  mediaPlayer: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    bottom: 0,
-    right: 0,
-    backgroundColor: Constants.Colors.SECONDARY_COLOR,
-    justifyContent: 'center',
-  },
-});

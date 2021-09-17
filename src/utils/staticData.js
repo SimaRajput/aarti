@@ -1,6 +1,3 @@
-import React from 'react';
-import Constants from '../constants';
-import Sound from 'react-native-sound';
 
 // const playlist = [
 //   { 
@@ -97,6 +94,37 @@ const videoList = [
   }
 ]
 
+const meditationlist = [
+  {
+    id: 0,
+    title: 'Emergence of Talents',
+    url: 'https://raw.githubusercontent.com/zmxv/react-native-sound-demo/master/advertising.mp3',
+    cover:
+      'https://images.unsplash.com/photo-1515552726023-7125c8d07fb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80',
+  },
+  {
+    id: 1,
+    title: 'Shippuden',
+    url: 'https://raw.githubusercontent.com/zmxv/react-native-sound-demo/master/advertising.mp3',
+    cover:
+      'https://images.unsplash.com/photo-1542359649-31e03cd4d909?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80',
+  },
+  {
+    id: 2,
+    title: 'Rising Dragon',
+    url: 'https://raw.githubusercontent.com/zmxv/react-native-sound-demo/master/advertising.mp3',
+    cover:
+      'https://images.unsplash.com/photo-1512036666432-2181c1f26420?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
+  },
+  {
+    id: 3,
+    title: 'Risking it all',
+    url: 'https://raw.githubusercontent.com/zmxv/react-native-sound-demo/master/advertising.mp3',
+    cover:
+      'https://images.unsplash.com/photo-1501761095094-94d36f57edbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80',
+  }
+];
+
 const moreData = [
   {
     id: 0,
@@ -154,3 +182,4 @@ exports.playlist = playlist;
 exports.videoList = videoList;
 exports.moreData = moreData;
 exports.socilaLinkData = socilaLinkData;
+exports.meditationlist = meditationlist;

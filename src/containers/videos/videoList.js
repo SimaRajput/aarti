@@ -3,6 +3,7 @@ import { FlatList, View, TouchableOpacity, Text, SafeAreaView, StyleSheet } from
 import { Header } from '../../components';
 import Constants from '../../constants';
 import StaticData from '../../utils/staticData';
+import styles from './styles';
 
 export default class VideoList extends React.Component {
   constructor(props) {
@@ -14,7 +15,7 @@ export default class VideoList extends React.Component {
     return (<TouchableOpacity
       onPress={() => navigate('VideoPlayer', { item })}
       style={styles.listItemView}>
-      <Text>{item.title}</Text>
+      <Text style={{ fontSize: 16 }}>{item.title}</Text>
     </TouchableOpacity>)
   }
 
@@ -33,20 +34,3 @@ export default class VideoList extends React.Component {
     )
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  listItemView: {
-    height: Constants.BaseStyle.DEVICE_HEIGHT / 100 * 10,
-    backgroundColor: Constants.Colors.SECONDARY_COLOR,
-    width: Constants.BaseStyle.DEVICE_WIDTH,
-    justifyContent: 'center',
-    alignItems: 'flex-start',
-    paddingLeft: Constants.BaseStyle.DEVICE_WIDTH / 100 * 4,
-    marginBottom: Constants.BaseStyle.DEVICE_WIDTH / 100 * 4
-  }
-})

@@ -8,17 +8,14 @@
 
 import React, { Component } from 'react';
 import {
-  TextInput,
   StyleSheet,
-  Text,
-  View,
-  TouchableOpacity,
   Alert,
-  SafeAreaView
+  LogBox
 } from 'react-native';
 import Navigator from './config/navigator';
 import SplashScreen from "react-native-splash-screen";
 import messaging from '@react-native-firebase/messaging';
+LogBox.ignoreAllLogs();
 
 export default class App extends Component {
   constructor(props) {

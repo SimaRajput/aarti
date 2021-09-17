@@ -3,12 +3,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React, {useEffect } from 'react';
 import Home from '../containers/Home';
 import { ArtiList, AudioPlayer } from '../containers/aarti'
-import More from '../containers/More';
+import More from '../containers/settings/More';
 import VideoPlayer from '../containers/videos/videoPlayer';
 import VideoList from '../containers/videos/videoList';
-import PrivacyPolicy from '../containers/PrivacyPolicy';
-import AboutUs from '../containers/AboutUs';
-import TermsCondition from '../containers/TermsCondition';
 import PushNotification from 'react-native-push-notification';
 import {navigationRef, isMountedRef} from './rootNavigator';
 import NotificationPopup from 'react-native-push-notification-popup';
@@ -16,9 +13,9 @@ import {pushNotificationInit} from '../utils/pushNotifications';
 import * as RootNavigation from './rootNavigator';
 import messaging from '@react-native-firebase/messaging';
 import SplashScreen from 'react-native-splash-screen';
-
-
-
+import PrivacyPolicy from '../containers/settings/PrivacyPolicy';
+import AboutUs from '../containers/settings/AboutUs';
+import TermsCondition from '../containers/settings/TermsCondition';
 
 
 const stackNavigatorConfiguration = {
