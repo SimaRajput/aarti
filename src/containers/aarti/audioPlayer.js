@@ -122,11 +122,14 @@ export default class AudioPlayer extends React.Component {
 
     const currentTimeString = this.getAudioTimeString(this.state.playSeconds);
     const durationString = this.getAudioTimeString(this.state.duration);
-    const img = this.props.route.params.item.cover
+    const data = this.props.route.params.item;
 
     return (
       <SafeAreaView style={styles.playerContainer}>
-        <Image source={{ uri: img }} style={styles.mainImage} />
+        <View style={styles.detailView}>
+          <Image source={{ uri: data.cover }} style={styles.mainImage} />
+          <Text style={styles.title}>{data.title}</Text>
+        </View>
         <View style={styles.playerView}>
           <TouchableOpacity onPress={this.jumpPrev15Seconds} style={{ justifyContent: 'center' }}>
             <Image source={Constants.Images.audioJumpLeft} style={styles.mediaImage} />

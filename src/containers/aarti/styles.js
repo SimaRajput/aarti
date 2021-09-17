@@ -28,13 +28,20 @@ const styles = StyleSheet.create({
   mainImage: {
     width: Constants.BaseStyle.DEVICE_WIDTH / 100 * 50,
     height: Constants.BaseStyle.DEVICE_WIDTH / 100 * 50,
-    marginVertical: Constants.BaseStyle.DEVICE_HEIGHT / 100 * 20,
-    alignSelf: 'center'
+    marginBottom: Constants.BaseStyle.DEVICE_HEIGHT / 100 * 2
   },
   playerView: {
     flexDirection: 'row',
     justifyContent: 'center',
     marginBottom: Constants.BaseStyle.DEVICE_HEIGHT / 100 * 2
+  },
+  detailView: {
+    alignItems: 'center',
+    marginVertical: Constants.BaseStyle.DEVICE_HEIGHT / 100 * 20,
+  },
+  title: {
+    fontSize: 18,
+    color: 'white'
   },
   mediaImage: {
     width: 30,
