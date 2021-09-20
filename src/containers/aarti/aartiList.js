@@ -13,7 +13,7 @@ export default class AartiList extends React.Component {
   renderItem({ item }) {
     const { navigation: { navigate } } = this.props;
     return (<TouchableOpacity
-      onPress={() => navigate('AudioPlayer', { item })}
+      onPress={() => navigate('LiveAarti', { item })}
       style={styles.listItemView}>
       <Text style={{ fontSize: 16 }}>{item.title}</Text>
     </TouchableOpacity>)

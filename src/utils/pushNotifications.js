@@ -9,7 +9,7 @@ export const pushNotificationInit = async navigation => {
       appTitle: 'Aarti',
       body: 'Aarti Notification Reminder',
       onPress: () => {
-        navigation.navigate('ArtiList');
+        navigation.navigate('LiveAarti');
       },
       slideOutTime: 15000,
       timeText: 'Now',
@@ -23,7 +23,7 @@ export const pushNotificationInit = async navigation => {
   registerDeviceForRemoteMessages();
 
   messaging().onNotificationOpenedApp(remoteMessage => {
-    navigation.navigate('ArtiList');
+    navigation.navigate('LiveAarti');
     console.log(
       'Notification caused app to open from background state:',
       remoteMessage.notification,
@@ -33,7 +33,7 @@ export const pushNotificationInit = async navigation => {
     .getInitialNotification()
     .then(remoteMessage => {
      if (remoteMessage) {
-        navigation.navigate('ArtiList');
+        navigation.navigate('LiveAarti');
         console.log(
           'Notification caused app to open from quit state:',
           remoteMessage.notification,

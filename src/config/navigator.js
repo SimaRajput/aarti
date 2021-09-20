@@ -2,7 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React, {useEffect } from 'react';
 import Home from '../containers/Home';
-import { ArtiList, AudioPlayer } from '../containers/aarti'
+import { ArtiList, AudioPlayer, LiveAarti } from '../containers/aarti'
 import More from '../containers/settings/More';
 import VideoPlayer from '../containers/videos/videoPlayer';
 import VideoList from '../containers/videos/videoList';
@@ -70,6 +70,7 @@ function navigator (){
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="ArtiList" component={ArtiList} />
           <Stack.Screen name="AudioPlayer" component={AudioPlayer} />
+          <Stack.Screen name="LiveAarti" component={LiveAarti} />
           <Stack.Screen name="More" component={More} />
           <Stack.Screen name="VideoPlayer" component={VideoPlayer} />
           <Stack.Screen name="VideoList" component={VideoList} />
