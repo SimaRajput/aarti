@@ -23,7 +23,8 @@ const styles = StyleSheet.create({
   playerContainer: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: Constants.Colors.SECONDARY_COLOR
+    backgroundColor: Constants.Colors.SECONDARY_COLOR,
+    alignItems:'center'
   },
   mainImage: {
     width: Constants.BaseStyle.DEVICE_WIDTH / 100 * 50,
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
   playerView: {
     flexDirection: 'row',
     justifyContent: 'center',
-    marginBottom: Constants.BaseStyle.DEVICE_HEIGHT / 100 * 2
+    marginBottom: Constants.BaseStyle.DEVICE_HEIGHT / 100 * 2,
   },
   detailView: {
     alignItems: 'center',
@@ -45,7 +46,8 @@ const styles = StyleSheet.create({
   },
   mediaImage: {
     width: 30,
-    height: 30
+    height: 30,
+    justifyContent:'center',
   },
   buttonSpacing: {
     marginHorizontal: 20
