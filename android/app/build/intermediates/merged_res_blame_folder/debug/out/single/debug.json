@@ -24,12 +24,12 @@
         "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-mdpi/splash.png"
     },
     {
-        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splasbottom.png.flat",
-        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-xxhdpi/splasbottom.png"
-    },
-    {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-ldpi_splash.png.flat",
         "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-ldpi/splash.png"
+    },
+    {
+        "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splasbottom.png.flat",
+        "source": "/home/teamlance21/Documents/react-native/aarti/android/app/src/main/res/drawable-xxhdpi/splasbottom.png"
     },
     {
         "merged": "/home/teamlance21/Documents/react-native/aarti/android/app/build/intermediates/res/merged/debug/drawable_splashscreen.xml.flat",
